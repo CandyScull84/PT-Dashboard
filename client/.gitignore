@@ -1,0 +1,42 @@
+# --- IDE/OS ---
+.vs/
+.vscode/
+*.vsidx
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- .NET build ---
+bin/
+obj/
+*.exe 
+*.dll
+*.pdb
+*.cache/
+*.log
+
+# --- Node/Vite/React ---
+node_modules/
+dist/
+*.tsbuildinfo
+.eslintcache
+*.local
+
+# --- Misc ---
+*.db
+*.db-shm
+*.db-wal
+.env
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+

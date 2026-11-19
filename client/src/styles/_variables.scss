@@ -1,0 +1,62 @@
+/* === Färgpalett === */
+:root {
+  --ink:    #1b1f24;
+  --muted:  #6c757d;
+  --border: #e9ecef;
+  --line: #6c6c6c;
+}
+
+/*:root {
+  --w-thin: 100;
+  --w-light: 300;
+}
+
+.thin { font-weight: var(--w-thin); font-variation-settings: 'wght' var(--w-thin);}
+.light { font-weight: var(--w-light); font-variation-settings: 'wght' var(--w-light);}*/
+
+/* === Typografiska mått (godkända storlekar) === */
+:root {
+  --fs-body: clamp(13px, 1.6vmin, 16px);
+  --lh-body: clamp(18px, 2.2vmin, 24px);
+
+  --fs-xsmall: clamp(11px, 1.2vmin, 14px);
+  --lh-xsmall: clamp(16px, 1.8vmin, 20px);
+
+  --fs-small: clamp(12px, 1.6vmin, 16px);
+  --lh-small: clamp(18px, 2.2vmin, 24px);
+
+  --fs-medium: clamp(14px, 2.0vmin, 20px);
+  --lh-medium: clamp(20px, 2.6vmin, 28px);
+
+  --fs-large:  clamp(16px, 2.4vmin, 24px);
+  --lh-large:  clamp(22px, 3.0vmin, 32px);
+
+  --fs-xlarge: clamp(18px, 2.8vmin, 30px);
+  --lh-xlarge: clamp(24px, 3.6vmin, 38px);
+
+  --fs-xxlarge: clamp(22px, 3.4vmin, 36px);
+  --lh-xxlarge: clamp(28px, 4.2vmin, 44px);
+
+  // --fs-body: clamp(14px, 1.0vw + 10px, 16px);
+  // --lh-body: clamp(20px, 1.2vw + 14px, 24px);
+
+  // --fs-xsmall: clamp(12px, 0.6vw + 10px, 14px);
+  // --lh-xsmall: clamp(18px, 0.8vw + 12px, 20px);
+
+  // --fs-small: clamp(14px, 0.8vw + 11px, 16px);
+  // --lh-small: clamp(20px, 1.0vw + 14px, 24px);
+
+  // --fs-medium: clamp(16px, 1.2vw + 12px, 20px);
+  // --lh-medium: clamp(22px, 1.4vw + 16px, 28px);
+
+  // --fs-large:  clamp(20px, 1.6vw + 14px, 24px);
+  // --lh-large:  clamp(26px, 1.8vw + 18px, 32px);
+
+  // --fs-xlarge: clamp(24px, 2.0vw + 16px, 30px);
+  // --lh-xlarge: clamp(30px, 2.2vw + 20px, 38px);
+
+  // --fs-xxlarge: clamp(30px, 2.8vw + 18px, 36px);
+  // --lh-xxlarge: clamp(36px, 3.0vw + 22px, 44px);
+ 
+}
+

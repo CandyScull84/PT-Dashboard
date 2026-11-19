@@ -1,0 +1,36 @@
+
+# API tests – PT Dashboard
+
+### Hämta snapshot-data
+GET http://localhost:5000/dashboard/api/snapshot
+Accept: application/json
+
+###
+
+### Hämta alla ordrar
+GET http://localhost:5000/dashboard/api/orders
+Accept: application/json
+
+###
+
+### Hämta totals per arbetsgrupp
+GET http://localhost:5000/dashboard/api/totals
+Accept: application/json
+
+###
+
+### Hämta totalall
+GET http://localhost:5000/dashboard/api/totalall
+Accept: application/json
+
+###
+
+### Hämta användarinformation
+GET http://localhost:5000/dashboard/api/me
+Accept: application/json
+
+###
+
+### Hälsokontroll
+GET http://localhost:5000/dashboard/api/health
+Accept: application/json

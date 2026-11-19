@@ -1,0 +1,18 @@
+
+@font-face {
+  font-family: 'Roboto';
+  src:  url('/fonts/roboto-italic-variablefont_wdthwght-webfont.woff') format('woff'),
+        url('/fonts/roboto-italic-variablefont_wdthwght-webfont.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src:  url('/fonts/roboto-variablefont_wdthwght-webfont.woff') format('woff'),
+        url('/fonts/roboto-variablefont_wdthwght-webfont.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}

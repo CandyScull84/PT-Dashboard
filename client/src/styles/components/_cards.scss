@@ -1,0 +1,8 @@
+@use './placeholders' as *;
+
+.card {
+  @extend %card !optional;
+}
+
+
+

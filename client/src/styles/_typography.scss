@@ -1,0 +1,67 @@
+@use './variables' as *;
+
+
+
+/* === Globala typsnitt === */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-optical-sizing: auto;
+  color: var(--ink);
+ /* font-weight: 300;*/
+  /*font-style: normal;*/
+  /*font-variation-settings: 'wght' 300;*/
+  font-synthesis-weight: none;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5, h6 {
+  /*font-weight: 300;*/
+  margin: 0;
+}
+
+
+/* Mobil (default) */
+// h1 { font-size: var(--fs-large);  line-height: var(--lh-large); }
+// h2 { font-size: var(--fs-medium); line-height: var(--lh-medium); }
+// h3 { font-size: var(--fs-small);  line-height: var(--lh-small); }
+// h4 { font-size: var(--fs-xsmall); line-height: var(--lh-xsmall); }
+// p  { font-size: var(--fs-xsmall); line-height: var(--lh-xsmall); }
+
+/* Tablet ≥768px */
+// @media (min-width: 768px) {
+//   body { font-size: var(--fs-small); line-height: var(--lh-small); }
+//   h1 { font-size: var(--fs-large);  line-height: var(--lh-large); }
+//   h2 { font-size: var(--fs-medium); line-height: var(--lh-medium); }
+//   h3 { font-size: var(--fs-small);  line-height: var(--lh-small); }
+//   h4 { font-size: var(--fs-xsmall); line-height: var(--lh-xsmall); }
+//   p  { font-size: var(--fs-small);  line-height: var(--lh-small); }
+// }
+
+/* Desktop ≥1200px */
+@media (min-width: 1200px) {
+  // body { font-size: var(--fs-small);  line-height: var(--lh-small);  }
+  h1 { font-size: var(--fs-xlarge);   line-height: var(--lh-xlarge); }
+  h2 { font-size: var(--fs-large);    line-height: var(--lh-large);  }
+  h3 { font-size: var(--fs-medium);   line-height: var(--lh-medium); }
+  h4 { font-size: var(--fs-small);    line-height: var(--lh-small);  }
+  p  { font-size: var(--fs-small);    line-height: var(--lh-small);  }
+}
+
+/* TV ≥1800px */
+@media (min-width: 1800px) {
+  // body { font-size: var(--fs-medium); line-height: var(--lh-medium); }
+  h1 { font-size: var(--fs-xxlarge);  line-height: var(--lh-xxlarge); }
+  h2 { font-size: var(--fs-xlarge);   line-height: var(--lh-xlarge);  }
+  h3 { font-size: var(--fs-large);    line-height: var(--lh-large);   }
+  h4 { font-size: var(--fs-medium);   line-height: var(--lh-medium);  }
+  p  { font-size: var(--fs-medium);   line-height: var(--lh-medium);  }
+}
+/* === Hjälparklasser för textstorlek (vid manuella avvikelser) === */
+// .text-xxlarge { font-size: var(--fs-xxlarge); line-height: var(--lh-xxlarge); }
+// .text-xlarge  { font-size: var(--fs-xlarge);  line-height: var(--lh-xlarge);  }
+// .text-large   { font-size: var(--fs-large);   line-height: var(--lh-large);   }
+// .text-medium  { font-size: var(--fs-medium);  line-height: var(--lh-medium);  }
+// .text-small   { font-size: var(--fs-small);   line-height: var(--lh-small);   }
+// .text-xsmall  { font-size: var(--fs-xsmall);  line-height: var(--lh-xsmall);  }

@@ -1,0 +1,30 @@
+.git-old/
+.vs/
+.vscode/
+**/bin/
+**/obj/
+**/publish/
+**/node_modules/
+**/dist/
+**/.env
+!**/.env.production
+Gamla ReactVite/
+*.csproj.user
+*.pubxml.user
+
+client/public/logotyp_original_cmyk.png
+client/public/logotyp_original_rgb.png
+client/src/assets/Logo.png
+
+**/PublishProfiles/
+/vite.config.js
+
+/backlog.md
+
+# --- Published files ---
+publish/
+
+# --- Older frontend builds ---
+Gamla ReactVite/
+
+/server/Services/StartTotalsCache.cs
